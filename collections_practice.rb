@@ -40,3 +40,7 @@ end
 def sum_array(array)
   array.inject(0) {|sum, i| sum + i}
 end
+
+def add_s(array)
+  array.each_with_index.collect {|element,index| unless index == 1 then element << "s"}
+end
