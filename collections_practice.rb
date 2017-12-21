@@ -42,5 +42,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect {|element,index| if index != 1 then element << "s"}
+  array.each_with_index.collect {|element,index| if index != 1 then element << "s" else element}
 end
