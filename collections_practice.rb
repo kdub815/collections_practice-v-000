@@ -36,3 +36,7 @@ def find_a(array)
     string.start_with?("a")
   end
 end
+
+def sum_array
+  
+end
